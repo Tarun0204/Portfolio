@@ -12,16 +12,16 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#homeSection"><img class="logo-img" src="./images/Logo.png" alt="logo"></a>
+          <a class="navbar-brand" href="#homeSection"><img src="images/Logo.png" class="logo-img" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link"  aria-current="page" href="#">About</a>
-              <a class="nav-link" href="#resumeSection">Profile</a>
-              <a class="nav-link" href="#">Skills</a>
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link"  aria-current="page" href="#aboutSection">About</a>
+              <a class="nav-link" href="#resumeSection">Resume</a>
+              <a class="nav-link" href="#skillsSection">Skills</a>
+              <a class="nav-link" href="#projectSection">Projects</a>
               <a class="nav-link" href="#contactSection">Contact</a>
             </div>
           </div>
@@ -54,10 +54,64 @@
       </div>
 
       <!-- About -->
+      <section class="about-section" id="aboutSection">
+        <div class="top-header">
+          <h1>About Me</h1>
+        </div>
+        <div class="about-row">
+          <div class="about-col">
+              <div class="about-info">
+                  <h3>My introduction</h3>
+                  <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                     frameworks and libraries,which allows me to implement interactive features.
+                     Additionally, I have experirence working with content management systems (CMS) like
+                     WordPress.
+                  </p>
+                  <a href="#"><button class="button">Download CV</button></a>
+              </div>
+          </div>
+          <div class="about-col" id="skillsSection">
+              <div class="skills-box">
+                  <div class="skills-header">
+                      <h3>Frontend</h3>
+                  </div>
+                  <div class="skills-list">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>Bootstrap</span>
+                      <span>Tailwind CSS</span>
+                      <span>JavaScript</span>
+                      <span>React JS</span>
+                  </div>
+              </div>
+              <div class="skills-box">
+                  <div class="skills-header">
+                      <h3>Backend</h3>
+                  </div>
+                  <div class="skills-list">
+                      <span>PHP</span>
+                      <span>JAVA</span>
+                      <span>Python</span>
+                      <span>NODE JS</span>
+                  </div>
+              </div>
+              <div class="skills-box">
+                  <div class="skills-header">
+                      <h3>Database</h3>
+                  </div>
+                  <div class="skills-list">
+                      <span>MySQL</span>
+                      <span>MongoDB</span>
+                      <span>Tools: Git, VS Code, Php MyAdmin</span>
+                  </div>
+              </div>
+          </div>
+        </div>
+     </section>
 
       <!-- Resume -->
        <div id="resumeSection" class="mt-5 mb-3">
-      <h1 class="text-center">My Profile</h1>
+      <h1 class="text-center">Resume</h1>
       <div class="container resume-body">
         <main class="row">
           <section class="col">
@@ -110,7 +164,7 @@
     </div> 
 
     <!-- Projects -->
-    <div class="card-container">
+    <div class="card-container" id="projectSection">
       <div class="card">
           <img class="project-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7Binm9_9L58/v1/-1x-1.jpg" alt="project">
           <div class="card-content">
@@ -120,8 +174,8 @@
                   <P class="tech">JavaScript</P>
                   <p class="tech">CSS</p>
               </div>
-              <a href=""><button class="tech-button">Github</button></a>
-              <a href=""><button class="tech-button">Live Demo</button></a>
+              <a href="https://github.com/Tarun0204/React_AppStore"><button class="tech-button">Github</button></a>
+              <a href="https://Tarun0204.github.io/React_AppStore"><button class="tech-button">Live Demo</button></a>
           </div>
       </div>
       <div class="card">
@@ -135,8 +189,8 @@
                   <p class="tech">PHP</p>
                   <p class="tech">My SQL</p>
               </div>
-              <a href=""><button class="tech-button">Github</button></a>
-              <a href=""><button class="tech-button">Live Demo</button></a>
+              <a href="https://github.com/Tarun0204/PG_Admin"><button class="tech-button">Github</button></a>
+              <a href="https://drive.google.com/file/d/1MI32IoF6KRgUbDAR39Q7dIXRY6Pp34Bx/view"><button class="tech-button">Live Demo</button></a>
           </div>
       </div>
       <div class="card">
@@ -149,8 +203,8 @@
                   <p class="tech">Bootstrap</p>
                   <p class="tech">JavaScript</p>
               </div>
-              <a href=""><button class="tech-button">Github</button></a>
-              <a href=""><button class="tech-button">Live Demo</button></a>
+              <a href="https://github.com/Tarun0204/Restro_Page"><button class="tech-button">Github</button></a>
+              <a href="https://restro-page.vercel.app/"><button class="tech-button">Live Demo</button></a>
           </div>
       </div>
       <div class="card">
@@ -163,8 +217,8 @@
                   <p class="tech">Bootstrap</p>
                   <p class="tech">JavaScript</p>
               </div>
-              <a href=""><button class="tech-button">Github</button></a>
-              <a href=""><button class="tech-button">Live Demo</button></a>
+              <a href="https://github.com/Tarun0204/ToDo-List"><button class="tech-button">Github</button></a>
+              <a href="https://tarun0204.github.io/ToDo-List/"><button class="tech-button">Live Demo</button></a>
           </div>
       </div>
       <div class="card">
@@ -179,8 +233,8 @@
                   <p class="tech">JavaScript</p>
                   <p class="tech">FireBase</p>
               </div>
-              <a href=""><button class="tech-button">Github</button></a>
-              <a href=""><button class="tech-button">Live Demo</button></a>
+              <a href="https://github.com/Tarun0204/FlyBuy"><button class="tech-button">Github</button></a>
+              <a href="https://flybuy-webapp.vercel.app/"><button class="tech-button">Live Demo</button></a>
           </div>
       </div>
       <div class="card">
@@ -193,11 +247,10 @@
                   <p class="tech">Bootstrap</p>
                   <p class="tech">JavaScript</p>
               </div>
-              <a href=""><button class="tech-button">Github</button></a>
-              <a href=""><button class="tech-button">Live Demo</button></a>
+              <a href="https://github.com/Tarun0204/Wikipedia"><button class="tech-button">Github</button></a>
+              <a href="https://tarun0204.github.io/Wikipedia/"><button class="tech-button">Live Demo</button></a>
           </div>
       </div>
-      
   </div>
 
     <!-- Contact -->
