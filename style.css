@@ -118,16 +118,17 @@
 
 .top-header{
     text-align: center;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
+
 .top-header h1{
     font-weight: 600;
     color: rgb(68, 68, 68);
-    margin-bottom: 10px;
 }
 .top-header span{
     color: #999;
 }
+
 h3{
     font-size: 20px;
     font-weight: 600;
@@ -204,6 +205,10 @@ h3{
 
 
 /* Resume */
+.resume-heading {
+    margin-bottom: 1em;
+}
+
 .resume-body {
     width: 100%;
     min-height: 100vh;
