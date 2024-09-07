@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#homeSection">Tarun Kumar</a>
+          <a class="navbar-brand" href="#homeSection"><img src="images/Logo.png" class="logo-img" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -25,6 +26,7 @@
               <a class="nav-link" href="#projectSection">Projects</a>
               <a class="nav-link" href="#contactSection">Contact</a>
             </div>
+            <img src="images/moon.jpg" class="moon-icon" id="moonIcon">
           </div>
         </div>
       </nav>
@@ -34,14 +36,14 @@
       <section class="home container-fluid">
         <div class="row align-items-center flex-column-reverse flex-lg-row">
           <div class="col-lg-6 col-md-12">
-            <div class="home-container"> 
-              <h4 class="home-heading mt-3">Hello I'm</h4>
+            <div class="home-container">
+              <p class="home-heading">Hello I'm</p>
               <h1 class="home-heading1">Tarun Kumar Potti <br>
-                <span>Web Developer</span></h1>
-              <p class="home-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, corrupti accusamus voluptate alias odit quo, pariatur quasi fuga itaque totam molestias veniam nostrum aliquam nisi, quam rem blanditiis accusantium tempore.</p>
+                <span class="home-heading">Web Developer</span></h1>
+              <p class="home-para">My journey in web development started with a curiosity to understand how the web works, and over time, it evolved into a drive to build innovative and user-friendly digital experiences. Whether it's front-end design or back-end functionality, I enjoy turning complex problems into simple, beautiful, and intuitive solutions. I'm constantly learning new technologies and improving my skills to create efficient, modern, and scalable web applications.</p>
               <div class="buttons">
                 <a href="https://drive.google.com/file/d/1v7Hv9LZtNiV3t83KF1yal5EvEsSIhUNX/view?usp=drivesdk"><button class="home-button">Download CV</button></a>
-                <a href="#contactSection"><button class="home-button">Contact Info</button></a>
+                <a href="#contactSection"><button class="home-button1">Contact Info</button></a>
               </div>
             </div>
           </div>
@@ -62,19 +64,16 @@
         <div class="about-row">
           <div class="about-col">
               <div class="about-info">
-                  <h3>My introduction</h3>
-                  <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
-                     frameworks and libraries,which allows me to implement interactive features.
-                     Additionally, I have experirence working with content management systems (CMS) like
-                     WordPress.
+                  <h3 class="intro-heading">My introduction</h3>
+                  <p class="intro-heading">An aspiring web developer with a passion for creating innovative and functional websites. I love diving into both the creative and technical aspects of web development, from designing intuitive user interfaces to building efficient back-end systems. My goal is to continually learn and grow in the field, while bringing fresh ideas and practical solutions to the projects I work on. Whether it’s mastering new technologies or optimizing existing code, I thrive on challenges and am always excited to explore new opportunities.
                   </p>
-                  <a href="https://drive.google.com/file/d/1v7Hv9LZtNiV3t83KF1yal5EvEsSIhUNX/view?usp=drivesdk"><button class="button">Download CV</button></a>
+                  <a href="https://drive.google.com/file/d/1v7Hv9LZtNiV3t83KF1yal5EvEsSIhUNX/view?usp=drivesdk"><button class="about-button">Download CV</button></a>
               </div>
           </div>
           <div class="about-col" id="skillsSection">
               <div class="skills-box">
                   <div class="skills-header">
-                      <h3>Frontend</h3>
+                      <h3 class="skills-heading">Frontend</h3>
                   </div>
                   <div class="skills-list">
                       <span>HTML</span>
@@ -87,7 +86,7 @@
               </div>
               <div class="skills-box">
                   <div class="skills-header">
-                      <h3>Backend</h3>
+                      <h3 class="skills-heading">Backend</h3>
                   </div>
                   <div class="skills-list">
                       <span>PHP</span>
@@ -98,7 +97,7 @@
               </div>
               <div class="skills-box">
                   <div class="skills-header">
-                      <h3>Database</h3>
+                      <h3 class="skills-heading">Database</h3>
                   </div>
                   <div class="skills-list">
                       <span>MySQL</span>
@@ -108,10 +107,9 @@
               </div>
           </div>
         </div>
-     </section>
 
       <!-- Resume -->
-       <div id="resumeSection" class="mt-5 mb-3">
+       <div id="resumeSection" class="resume-section mt-5 mb-3">
       <h1 class="resume-heading text-center">Resume</h1>
       <div class="container resume-body">
         <main class="row">
@@ -122,7 +120,7 @@
             <div class="contents">
               <div class="box"> 
                 <h4>2020 - 2024</h4>
-                <h3>Bachelor's Degree</h3>
+                <h3 class="resume-section-heading">Bachelor's Degree</h3>
                 <p>Baba Institute of Technology and Sciences, <br>Computer Science Engineering <br>Visakhapatnam</p> 
                 </div>
               <div class="box">
@@ -151,7 +149,7 @@
               <div class="box">
                 <h4>July 2023 - August 2023</h4>
                 <h3>Web Developer</h3>
-                <p>Virtual Internship for 2 Months in INTERNSHALA as a Web Developer</p>
+                <p>Virtual Internship for 2 Months in INTERNSHALA as a <br>Web Developer</p>
               </div>
               <div class="box">
                 <h4>March 2023 - April 2023</h4>
@@ -163,13 +161,12 @@
         </main>
       </div>
     </div> 
-
     <!-- Projects -->
     <div class="card-container" id="projectSection">
       <div class="card">
           <img class="project-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7Binm9_9L58/v1/-1x-1.jpg" alt="project">
           <div class="card-content">
-              <h1>App Store</h1>
+              <h1 class="project-name">App Store</h1>
               <div class="technologies">
                   <p class="tech">React JS</p>
                   <P class="tech">JavaScript</P>
@@ -182,7 +179,7 @@
       <div class="card">
           <img src="https://mir-s3-cdn-cf.behance.net/projects/404/9e9beb196121305.Y3JvcCwxMjEyLDk0OCwwLDA.png" alt="project">
           <div class="card-content">
-              <h1>PG Life</h1>
+              <h1 class="project-name">PG Life</h1>
               <div class="technologies">
                   <p class="tech">HTML</p>
                   <P class="tech">CSS</P>
@@ -197,7 +194,7 @@
       <div class="card">
           <img class="project-img" src="https://content3.jdmagicbox.com/comp/visakhapatnam/n4/0891px891.x891.180725160159.w5n4/catalogue/sam-s-griddle-andhra-university-visakhapatnam-restaurants-zblk2vz3iq.jpg" alt="project">
           <div class="card-content">
-              <h1>Restaurant Website</h1>
+              <h1 class="project-name">Restaurant Website</h1>
               <div class="technologies">
                   <p class="tech">HTML</p>
                   <P class="tech">CSS</P>
@@ -211,7 +208,7 @@
       <div class="card">
           <img src="https://foolishdeveloper.com/wp-content/uploads/2021/11/todo-list-javascript.jpg" alt="project">
           <div class="card-content">
-              <h1>TODO LIST</h1>
+              <h1 class="project-name">TODO LIST</h1>
               <div class="technologies">
                   <p class="tech">HTML</p>
                   <P class="tech">CSS</P>
@@ -225,7 +222,7 @@
       <div class="card">
           <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-website-logo-img.png" alt="project">
           <div class="card-content">
-              <h1>E-Commerce Store</h1>
+              <h1 class="project-name">E-Commerce Store</h1>
               <div class="technologies">
                   <p class="tech">HTML</p>
                   <P class="tech">CSS</P>
@@ -241,7 +238,7 @@
       <div class="card">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQil0KwzOE-iwXLmOMY6PI9o8uvCmtkWhd7OA&s" alt="project">
           <div class="card-content">
-              <h1>Wikipedia Simple Application</h1>
+              <h1 class="project-name">Wikipedia Simple Application</h1>
               <div class="technologies">
                   <p class="tech">HTML</p>
                   <P class="tech">CSS</P>
@@ -256,23 +253,44 @@
 
     <!-- Contact -->
     <section id="contactSection" class="contact-section">
-      <p>Get in Touch</p>
-      <h3>Contact Me</h3>
+      <div class="contact-container">
       <div class="contact-info">
-        <a href="#" class="contact-item">
-          <img src="https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731_640.png" alt="Email Icon">
-          pottitarun32@gmail.com
-        </a>
-        <a href="https://www.linkedin.com/in/tarun-potti-440a74268" target="_blank" class="contact-item">
-          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Icon">
-          LinkedIn Profile
-        </a>
-        <a href="https://github.com/Tarun0204" target="_blank" class="contact-item">
-          <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Icon">
-          GitHub Profile
-        </a>
+              <h1 class="contact-heading">Contact Me</h1>
+              <a href="mailto:pottitarun32@gmail.com" class="contact-item">
+                  <img src="https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731_640.png" alt="Email Icon">
+                  pottitarun32@gmail.com
+              </a>
+              <a href="https://www.linkedin.com/in/tarun-potti-440a74268" target="_blank" class="contact-item">
+                  <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Icon">
+                  LinkedIn Profile
+              </a>
+              <a href="https://github.com/Tarun0204" target="_blank" class="contact-item">
+                  <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Icon">
+                  GitHub Profile
+              </a>
+          </div>
+  
+          <form class="contact-form" action="https://formsubmit.co/21067e01d4f1185481118152f846535b" method="POST">
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="Name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="Email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="Message" rows="4" placeholder="Your Message" required></textarea>
+                  <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+          </form>
       </div>
-    </section>
+  </section>
+  
+  </section>
     
     <footer>
       <nav class="footer-nav">
