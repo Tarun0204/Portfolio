@@ -686,8 +686,8 @@ footer {
 }
 
 .footer-link:hover {
-    color: #077b32;
-    text-shadow: 0 0 10px #077b32;
+   color: aqua;
+    font-weight: bold;
 }
 
 .footer-copy {
