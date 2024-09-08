@@ -16,10 +16,7 @@
 
 body {
     overflow-x: hidden;
-}
-
-.home, .about-section, .resume-section, .contact-section {
-    max-width: 1200px;
+     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
