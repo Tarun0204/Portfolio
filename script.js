@@ -1,3 +1,15 @@
+//Navbar 
+function myMenuFunction() {
+    var menuBtn = document.getElementById("myNavMenu");
+
+    if (menuBtn.className === "nav-menu") {
+        menuBtn.className += " responsive";
+    } else {
+        menuBtn.className = "nav-menu";
+    }
+}
+
+//Dark Mode
 var icon = document.getElementById("moonIcon");
 
 if (localStorage.getItem("theme") === "dark") {
