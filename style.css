@@ -176,6 +176,7 @@ nav {
 .home-para {
     font-size: 18px;
     margin: 25px 0 30px;
+    font-family: italic;
 }
 
 .buttons {
@@ -293,6 +294,10 @@ h3{
 
 .intro-heading {
     color: var(--secondary-color);
+}
+
+.intro-heading1 {
+    font-family: italic;
 }
 
 .about-info{
