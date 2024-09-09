@@ -15,12 +15,12 @@
 }
 
 body {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 @media (max-width: 576px) {
     body {
-        overflow-x: hidden;
+        overflow: hidden;
     }
 }
 
