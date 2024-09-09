@@ -18,6 +18,12 @@ body {
     overflow-x: hidden;
 }
 
+@media (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
 /* Navbar */
 nav {
     width: 100%;
