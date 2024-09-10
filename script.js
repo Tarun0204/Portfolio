@@ -30,3 +30,11 @@ icon.onclick = function() {
         localStorage.setItem("theme", "light"); 
     }
 };
+
+
+//Spinner
+window.addEventListener("load", function() {
+    setTimeout(function() {
+        document.getElementById('loading-screen').style.display = 'none';
+    }, 5000);
+});
