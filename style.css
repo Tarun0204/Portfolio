@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
 :root {
     --primary-color: #fff;
     --secondary-color: #000;
@@ -28,17 +30,17 @@
     color: white;
   }
 
-@keyframes spin {
+  @keyframes spin {
     100% {
       transform: rotate(360deg);
     }
-}
+  }
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto;
 }
 
 body {
@@ -171,6 +173,7 @@ nav {
     width: 30px;
     position: fixed;
     cursor: pointer;
+    border-radius: 50%;
 }
 
 /* Home */
@@ -201,7 +204,7 @@ nav {
 .home-para {
     font-size: 18px;
     margin: 25px 0 30px;
-    font-family: italic;
+    font-style: italic;
 }
 
 .buttons {
@@ -322,7 +325,7 @@ h3{
 }
 
 .intro-heading1 {
-    font-family: italic;
+    font-style: italic;
 }
 
 .about-info{
@@ -399,6 +402,11 @@ h3{
 /* Resume */
 .resume-section  {
     background-color: var(--primary-color);
+}
+
+.resume-para {
+    font-style: italic;
+    font-weight: bold;
 }
 
 .resume-section-heading {
@@ -632,7 +640,8 @@ a .tech-button {
 }
 
 .contact-item:hover {
-    color: #0073b1;
+    color: #fff;
+    font-weight: bolder;
 }
 
 .contact-form {
@@ -722,8 +731,7 @@ footer {
 }
 
 .footer-link:hover {
-   color: aqua;
-    font-weight: bold;
+    color: aqua;
 }
 
 .footer-copy {
