@@ -36,5 +36,5 @@ icon.onclick = function() {
 window.addEventListener("load", function() {
     setTimeout(function() {
         document.getElementById('loading-screen').style.display = 'none';
-    }, 5000);
+    }, 1000);
 });
