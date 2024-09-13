@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Tarun Kumar || Portfolio</title>
 </head>
@@ -47,7 +47,7 @@
 
       <!-- Home -->
        <div id="homeSection">
-        <img class="moon-icon" src="images/moon.jpg" id="moonIcon">
+        <img class="moon-icon" src="images/moon.jpg" id="moonIcon" alt="moon">
       <section class="home container-fluid">
         <div class="row align-items-center flex-column-reverse flex-lg-row">
           <div class="col-lg-6 col-md-12">
@@ -57,8 +57,8 @@
                 <span class="home-heading">Web Developer</span></h1>
               <p class="home-para">My journey in web development started with a curiosity to understand how the web works, and over time, it evolved into a drive to build innovative and user-friendly digital experiences.</p>
               <div class="buttons">
-                <a href="https://drive.google.com/file/d/1v7Hv9LZtNiV3t83KF1yal5EvEsSIhUNX/view?usp=drivesdk"><button class="home-button">Download CV</button></a>
-                <a href="#contactSection"><button class="home-button1">Contact Info</button></a>
+                <button onclick="location.href='https://drive.google.com/file/d/1v7Hv9LZtNiV3t83KF1yal5EvEsSIhUNX/view?usp=drivesdk'" class="home-button">Download CV</button>
+                <a href="#contactSection" class="home-button1">Contact Info</a>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@
                   <h3 class="intro-heading">My introduction</h3>
                   <p class="intro-heading1">An aspiring web developer with a passion for creating innovative and functional websites. I love diving into both the creative and technical aspects of web development, from designing intuitive user interfaces to building efficient back-end systems. My goal is to continually learn and grow in the field, while bringing fresh ideas and practical solutions to the projects I work on. Whether it’s mastering new technologies or optimizing existing code, I thrive on challenges and am always excited to explore new opportunities.
                   </p>
-                  <a href="https://drive.google.com/file/d/1v7Hv9LZtNiV3t83KF1yal5EvEsSIhUNX/view?usp=drivesdk"><button class="about-button">Download CV</button></a>
+                  <button onclick="location.href='https://drive.google.com/file/d/1v7Hv9LZtNiV3t83KF1yal5EvEsSIhUNX/view?usp=drivesdk'" class="about-button">Download CV</button>
               </div>
           </div>
           <div class="about-col" id="skillsSection" data-aos="zoom-in-left">
@@ -117,65 +117,66 @@
                   <div class="skills-list">
                       <span>MySQL</span>
                       <span>MongoDB</span>
-                      <span>Tools: Git, Xampp, VS Code, Php MyAdmin</span>
+                      <span>Tools: Git, VS Code, Php MyAdmin</span>
                   </div>
               </div>
           </div>
         </div>
 
       <!-- Resume -->
-       <div id="resumeSection" class="resume-section mt-5 mb-3">
-      <h1 class="resume-heading text-center">Resume</h1>
-      <div class="container resume-body">
-        <main class="row">
-          <section class="col">
-            <header class="title"  data-aos="zoom-in-left">
-              <h2>EDUCATION</h2>
-            </header>
-            <div class="contents">
-              <div class="box" data-aos="flip-right"> 
-                <h4>2020 - 2024</h4>
-                <h3 class="resume-section-heading">Bachelor's Degree</h3>
-                <p class="resume-para">Baba Institute of Technology and Sciences, <br>Computer Science Engineering <br>Visakhapatnam</p> 
-                </div>
-              <div class="box" data-aos="flip-up">
-                <h4>2018 - 2020</h4>
-                <h3>Intermediate</h3>
-                <p class="resume-para">Narayana Jr College, MPC<br>Visakhapatnam</p>
-              </div>
-              <div class="box" data-aos="flip-left">
-                <h4>2017 - 2018</h4>
-                <h3>High School</h3>
-                <p class="resume-para">St Aloysius Anglo Indian High School, ICSE <br>Visakhapatnam</p>
-              </div>
+<div id="resumeSection" class="resume-section mt-5 mb-3">
+  <h1 class="resume-heading text-center">Resume</h1>
+  <div class="container resume-body">
+      <div class="row">
+        <section class="col">
+          <header class="title" data-aos="zoom-in-left">
+            <h2>EDUCATION</h2>
+          </header>
+          <div class="contents">
+            <div class="box" data-aos="flip-right">
+              <h4>2020 - 2024</h4>
+              <h3 class="resume-section-heading">Bachelor's Degree</h3>
+              <p class="resume-para">Baba Institute of Technology and Sciences,<br>Computer Science Engineering<br>Visakhapatnam</p>
             </div>
-          </section>
-          
-          <section class="col">
-            <header class="title"  data-aos="zoom-in-right">
-              <h2>INTERNSHIPS</h2>
-            </header>
-            <div class="contents">
-              <div class="box" data-aos="flip-right">
-                <h4>May 2024 - Present</h4>
-                <h3>Web Developer</h3>
-                <p class="resume-para">INSTIPARTY ONLINE PRIVATE LIMITED,<br>A StartUp in Vizag <br>Visakhapatnam</p>
-              </div>
-              <div class="box" data-aos="flip-up">
-                <h4>July 2023 - August 2023</h4>
-                <h3>Web Developer</h3>
-                <p class="resume-para">Virtual Internship for 2 Months in INTERNSHALA<br>Web Developer</p>
-              </div>
-              <div class="box" data-aos="flip-left">
-                <h4>March 2023 - April 2023</h4>
-                <h3>Frontend Developer</h3>
-                <p class="resume-para">Virtual Internship for 1 Month in TXON as a <br>Frontend Developer</p>
-              </div>
+            <div class="box" data-aos="flip-up">
+              <h4>2018 - 2020</h4>
+              <h3>Intermediate</h3>
+              <p class="resume-para">Narayana Jr College, MPC<br>Visakhapatnam</p>
             </div>
-          </section>
-        </main>
+            <div class="box" data-aos="flip-left">
+              <h4>2017 - 2018</h4>
+              <h3>High School</h3>
+              <p class="resume-para">St Aloysius Anglo Indian High School, ICSE<br>Visakhapatnam</p>
+            </div>
+          </div>
+        </section>
+        
+        <section class="col">
+          <header class="title" data-aos="zoom-in-right">
+            <h2>INTERNSHIPS</h2>
+          </header>
+          <div class="contents">
+            <div class="box" data-aos="flip-right">
+              <h4>May 2024 - Present</h4>
+              <h3>Web Developer</h3>
+              <p class="resume-para">INSTIPARTY ONLINE PRIVATE LIMITED,<br>A StartUp in Vizag<br>Visakhapatnam</p>
+            </div>
+            <div class="box" data-aos="flip-up">
+              <h4>July 2023 - August 2023</h4>
+              <h3>Web Developer</h3>
+              <p class="resume-para">Virtual Internship for 2 Months in INTERNSHALA<br>Web Developer</p>
+            </div>
+            <div class="box" data-aos="flip-left">
+              <h4>March 2023 - April 2023</h4>
+              <h3>Frontend Developer</h3>
+              <p class="resume-para">Virtual Internship for 1 Month in TXON as a<br>Frontend Developer</p>
+            </div>
+          </div>
+        </section>
       </div>
-    </div> 
+  </div>
+</div>
+
     <!-- Projects -->
     <div class="card-container" id="projectSection">
       <div class="card" data-aos="flip-up">
@@ -187,8 +188,8 @@
                   <P class="tech">JavaScript</P>
                   <p class="tech">CSS</p>
               </div>
-              <a href="https://github.com/Tarun0204/React_AppStore"><button class="tech-button">Github <i class="fa-solid fa-arrow-right"></i></button></a>
-              <a href="https://Tarun0204.github.io/React_AppStore"><button class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button></a>
+              <button onclick="location.href='https://github.com/Tarun0204/React_AppStore'" class="tech-button">Github <i class="fa-solid fa-arrow-right"></i></button>
+              <button onclick="location.href='https://Tarun0204.github.io/React_AppStore'" class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button>
           </div>
       </div>
       <div class="card" data-aos="flip-right">
@@ -202,8 +203,8 @@
                   <p class="tech">PHP</p>
                   <p class="tech">My SQL</p>
               </div>
-              <a href="https://github.com/Tarun0204/PG_Admin"><button class="tech-button">Github <i class="fa-solid fa-arrow-right"></i></button></a>
-              <a href="https://drive.google.com/file/d/1MI32IoF6KRgUbDAR39Q7dIXRY6Pp34Bx/view"><button class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button></a>
+              <button onclick="location.href='https://github.com/Tarun0204/PG_Admin'" class="tech-button">GitHub <i class="fa-solid fa-arrow-right"></i></button>
+              <button onclick="location.href='https://drive.google.com/file/d/1MI32IoF6KRgUbDAR39Q7dIXRY6Pp34Bx/view'" class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button>
           </div>
       </div>
       <div class="card" data-aos="flip-down">
@@ -216,8 +217,8 @@
                   <p class="tech">Bootstrap</p>
                   <p class="tech">JavaScript</p>
               </div>
-              <a href="https://github.com/Tarun0204/Restro_Page"><button class="tech-button">Github <i class="fa-solid fa-arrow-right"></i></button></a>
-              <a href="https://restro-page.vercel.app/"><button class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button></a>
+              <button onclick="location.href='https://github.com/Tarun0204/Restro_Page'" class="tech-button">GitHub <i class="fa-solid fa-arrow-right"></i></button>
+              <button onclick="location.href='https://restro-page.vercel.app/'" class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button>
           </div>
       </div>
       <div class="card" data-aos="flip-left">
@@ -230,8 +231,8 @@
                   <p class="tech">Bootstrap</p>
                   <p class="tech">JavaScript</p>
               </div>
-              <a href="https://github.com/Tarun0204/ToDo-List"><button class="tech-button">Github <i class="fa-solid fa-arrow-right"></i></button></a>
-              <a href="https://tarun0204.github.io/ToDo-List/"><button class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button></a>
+              <button onclick="location.href='https://github.com/Tarun0204/ToDo-List'" class="tech-button">GitHub <i class="fa-solid fa-arrow-right"></i></button>
+              <button onclick="location.href='https://tarun0204.github.io/ToDo-List/'" class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button>
           </div>
       </div>
       <div class="card" data-aos="flip-up">
@@ -246,8 +247,8 @@
                   <p class="tech">JavaScript</p>
                   <p class="tech">FireBase</p>
               </div>
-              <a href="https://github.com/Tarun0204/FlyBuy"><button class="tech-button">Github <i class="fa-solid fa-arrow-right"></i></button></a>
-              <a href="https://flybuy-webapp.vercel.app/"><button class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button></a>
+              <button onclick="location.href='https://github.com/Tarun0204/FlyBuy'" class="tech-button">GitHub <i class="fa-solid fa-arrow-right"></i></button>
+              <button onclick="location.href='https://flybuy-webapp.vercel.app/'" class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button>
           </div>
       </div>
       <div class="card" data-aos="flip-right">
@@ -260,8 +261,8 @@
                   <p class="tech">Bootstrap</p>
                   <p class="tech">JavaScript</p>
               </div>
-              <a href="https://github.com/Tarun0204/Wikipedia"><button class="tech-button">Github <i class="fa-solid fa-arrow-right"></i></button></a>
-              <a href="https://tarun0204.github.io/Wikipedia/"><button class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button></a>
+              <button onclick="location.href='https://github.com/Tarun0204/Wikipedia'" class="tech-button">GitHub <i class="fa-solid fa-arrow-right"></i></button>
+              <button onclick="location.href='https://tarun0204.github.io/Wikipedia/'" class="tech-button">Live Demo <i class="fa-solid fa-arrow-right"></i></button>
           </div>
       </div>
   </div>
@@ -270,7 +271,7 @@
     <section id="contactSection" class="contact-section">
       <div class="contact-container">
       <div class="contact-info" data-aos="zoom-in-right">
-              <h1 class="contact-heading">Contact Me</h1>
+              <h2 class="contact-heading">Contact Me</h2>
               <a href="mailto:pottitarun32@gmail.com" class="contact-item">
                   <img src="https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731_640.png" alt="Email Icon">
                   pottitarun32@gmail.com
