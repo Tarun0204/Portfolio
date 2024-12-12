@@ -82,15 +82,22 @@ nav {
     text-shadow: 0 0 10px #077b32;
 }
 
-.hamburg,
-.cancel {
+.hamburg {
     cursor: pointer;
     position: absolute;
     right: 15px;
     top: 10px;
     color: var(--secondary-color);
     display: none;
-    font-size: clamp(2.5rem, 0.5rem + 5vw, 3rem);
+}
+
+.cancel {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: #ffffff;
+    display: none;
 }
 
 .nav-container .links {
