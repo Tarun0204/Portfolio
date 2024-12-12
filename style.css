@@ -89,6 +89,7 @@ nav {
     top: 10px;
     color: var(--secondary-color);
     display: none;
+    font-size: clamp(2.5rem, 0.5rem + 5vw, 3rem);
 }
 
 .cancel {
@@ -98,6 +99,7 @@ nav {
     top: 10px;
     color: #ffffff;
     display: none;
+    font-size: clamp(2.5rem, 0.5rem + 5vw, 3rem);
 }
 
 .nav-container .links {
