@@ -574,8 +574,15 @@ main.row {
 }
 
 .projects-buttons button {
+ display: inline-block;
+    padding: 8px 16px;
     font-size: 16px;
-    margin-right: 6px;
+    background-image: linear-gradient(45deg, #f12711, #f5af19);
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    color: #fff;
+    border: none;
 }
 
 .tech-button {
