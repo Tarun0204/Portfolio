@@ -569,6 +569,15 @@ main.row {
     color: var(--secondary-color);
 }
 
+.projects-buttons {
+    display: flex;
+}
+
+.projects-buttons button {
+    font-size: 16px;
+    margin-right: 6px;
+}
+
 .tech-button {
     display: inline-block;
     padding: 8px 16px;
